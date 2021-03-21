@@ -8,12 +8,12 @@
     <title>Contacts</title>
   </head>
   <body>
-    <header class="introduction__menu">
-      <ul>
-        <li>
+    <header class="introduction__menu container">
+      <ul class="introduction__menu-list">
+        <li class="introduction__menu-list-item">
           <a href="./index.html">Главная</a>
         </li>
-        <li>
+        <li class="introduction__menu-list-item">
           <a href="./contacts.html">Контакты</a>
         </li>
       </ul>
@@ -21,14 +21,16 @@
 
     <main>
       <div class="contact-us">
-        <h2 class="page-title">Contact us</h2>
-        <p class="text" class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque,
-          neque!
-        </p>
+        <div class="contact-us__wrapper container">
+          <h2 class="page-title">Contact us</h2>
+          <p class="text" class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque,
+            neque!
+          </p>
+        </div>
       </div>
 
-      <div class="content">
+      <div class="content container">
         <div class="content__contacts">
           <img
             src="https://images.pexels.com/photos/1070945/pexels-photo-1070945.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
@@ -42,13 +44,13 @@
           </p>
 
           <h4 class="subtitle">Phone</h4>
-          <ul>
+          <ul class="content__contacts-phone">
             <li>012-345-678-900</li>
             <li>009-876-543-210</li>
           </ul>
 
           <h4 class="subtitle">Online service</h4>
-          <ul>
+          <ul class="content__contacts-oline">
             <li>
               <a href="example.com">example.com</a>
             </li>
@@ -104,7 +106,7 @@
         </div>
       </div>
 
-      <div class="map">
+      <div class="map container">
         <script
           type="text/javascript"
           charset="utf-8"
@@ -115,29 +117,33 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__work-together">
-        <div class="footer__content">
-          <h3 class="title">Intersted to work with our team?</h3>
-          <p class="text">
-            Porro amet harum assumenda nam pariatur sapiente molestiae rerum
-            quasi
-          </p>
+      <div class="container">
+        <div class="footer__work-together">
+          <div class="footer__content">
+            <h3 class="footer__title title">
+              Intersted to work with our team?
+            </h3>
+            <p class="text">
+              Porro amet harum assumenda nam pariatur sapiente molestiae rerum
+              quasi
+            </p>
+          </div>
         </div>
-      </div>
 
-      <hr />
+        <hr />
 
-      <div class="footer__info">
-        <address class="footer__contacts">
-          <ul>
-            <li>My contacts</li>
-            <li>phone: 012-345-678-900</li>
-            <li>e-mail: user@example.com</li>
-          </ul>
-        </address>
+        <div class="footer__info">
+          <address class="footer__contacts">
+            <ul class="footer__contacts-list">
+              <li>My contacts</li>
+              <li>phone: 012-345-678-900</li>
+              <li>e-mail: user@example.com</li>
+            </ul>
+          </address>
 
-        <div class="footer__copyright">
-          <p class="text">All rights reserved</p>
+          <div class="footer__copyright">
+            <p class="text">All rights reserved</p>
+          </div>
         </div>
       </div>
     </footer>

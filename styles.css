@@ -1,15 +1,17 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
   font-family: sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
 }
 
 .text {
   font-size: 16px;
   line-height: 26px;
-  color: #1f3f68;
-}
-
-.main-title {
-  font-size: 64px;
   color: #1f3f68;
 }
 
@@ -28,6 +30,60 @@ body {
   font-size: 20px;
   line-height: 30px;
   color: #1f3f68;
+}
+
+.introduction__menu-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.introduction__title {
+  font-size: 64px;
+  width: 510px;
+  color: #1f3f68;
+}
+
+.introduction__text {
+  width: 425px;
+}
+
+.advantages__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.advantages__item {
+  width: 359px;
+}
+
+.footer__content {
+  width: 495px;
+}
+
+.footer__title {
+  width: 340px;
+}
+
+.footer__contacts {
+  font-style: normal;
+}
+
+.footer__contacts-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__contacts-phone,
+.content__contacts-oline {
+  list-style-type: none;
 }
 
 .form-element {
