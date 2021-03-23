@@ -1,13 +1,33 @@
+/* *********************** >320px *********************** */
 * {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
+.top {
+  flex-grow: 1;
+}
+
+/* ******* CONTAINER ******** */
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+@media all and (min-width: 1140px) {
+  .container {
+    box-sizing: content-box;
+  }
+}
+
+/* ******* TEXT ******** */
 
 .text {
   font-size: 16px;
@@ -19,102 +39,23 @@
   opacity: 0.6;
 }
 
-.title {
-  font-size: 36px;
-  text-align: center;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 46px;
-  letter-spacing: 0.05em;
-  color: #000000;
-}
-
-.subtitle {
-  font-size: 20px;
-  line-height: 30px;
-  color: #1f3f68;
-}
-
-/* ************ HEADER *********** */
+/* ******* HEADER ******** */
 .header__menu-list {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  padding-top: 39px;
+  padding: 16px 16px 0;
   align-items: center;
 }
 
-/* ************ FOOTER *********** */
-.footer {
-  /* height: 657px; */
-  box-sizing: border-box;
-  background: #316099;
-  /* padding: 91px 113px 64px; */
+@media all and (min-width: 650px) {
+  .header__menu-list {
+    padding: 47px 32px 0;
+  }
 }
 
-.footer__work-together {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 91px 0 96px 0;
-}
-
-.footer__content {
-  width: 495px;
-}
-
-.footer__title {
-  width: 340px;
-  text-align: left;
-  color: #ffffff;
-}
-
-.footer__text {
-  color: #ffffff;
-  opacity: 0.6;
-}
-
-.footer__content-text {
-  margin-top: 32px;
-}
-
-.footer__button {
-  color: #ffffff;
-  opacity: 1;
-  text-decoration: none;
-  display: inline-block;
-  padding: 15px 80px;
-  background: #5a98d0;
-}
-
-.footer__contacts {
-  font-style: normal;
-}
-
-.footer__hr {
-  opacity: 0.4;
-  border: none;
-  border-bottom: 1px solid #ffffff;
-}
-
-.footer__contacts-list {
-  display: flex;
-  justify-content: space-between;
-  padding-inline-start: 20px;
-}
-
-.footer__info {
-  padding: 64px 0;
-}
-
-.footer__contacts-list {
-  padding-right: 265px;
-  margin-bottom: 64px;
-}
-
-.footer__contacts-text {
-  color: #ffffff;
-  opacity: 1;
-  max-width: 220px;
-  padding-left: 19px;
+@media all and (min-width: 1100px) {
+  .header__menu-list {
+    /* padding: 34px 113px 0; */
+  }
 }
