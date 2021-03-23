@@ -54,12 +54,22 @@
 }
 
 .advantages__item {
+  display: flex;
+  flex-direction: column;
   width: 359px;
   box-sizing: border-box;
   background: #ffffff;
   box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
   padding: 43px 32px;
+}
+
+.advantages__item:nth-child(2) {
+  padding-top: 3px;
+}
+
+.advantages__item img {
+  align-self: center;
 }
 
 .advantages__subtitle {
