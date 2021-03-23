@@ -45,6 +45,117 @@
   align-self: center;
 }
 
+/* ******* ADVANTAGES ******** */
+.advantages {
+  padding-top: 48px;
+}
+
+.advantages .title {
+  padding: 0 16px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.advantages__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding: 32px 16px 0;
+}
+
+.advantages__item {
+  display: flex;
+  flex-direction: column;
+  max-width: 336px;
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  padding: 40px 30px 21px;
+  margin-top: 32px;
+}
+
+.advantages__item:nth-child(2) {
+  padding-top: 3px;
+}
+
+.advantages__item img {
+  align-self: center;
+  height: 114px;
+}
+
+.advantages__item:nth-child(2) img {
+  height: 145px;
+}
+
+.advantages__subtitle {
+  max-width: 294px;
+  padding: 51px 0 14px 0;
+}
+
+.advantages__more {
+  display: inline-block;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5a98d0;
+  text-decoration: none;
+}
+
+.project {
+  padding: 64px 16px 0;
+}
+
+.project__text {
+  padding: 32px 0 82px 0;
+  margin: 0 auto;
+  text-align: center;
+  color: #222222;
+  max-width: 495px;
+  opacity: 1;
+}
+
+.project__image {
+  width: 100%;
+}
+
+.project__image-item {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.project__image-item:last-child {
+  margin-bottom: 64px;
+}
+
+.project__image-container .project__image-item {
+  flex-grow: 1;
+}
+
+.project__image-title-top,
+.project__image-title-bottom {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+  font-size: 16px;
+  color: #ffffff;
+  position: absolute;
+}
+
+.project__image-title-top {
+  top: 16px;
+  right: 16px;
+}
+
+.project__image-title-bottom {
+  top: 16px;
+  left: 16px;
+}
+
 /* *********************** >650px *********************** */
 /* ******* INTRODUCTION ******** */
 @media all and (min-width: 650px) {
@@ -85,9 +196,10 @@
   }
 }
 
+/* *********************** >1100px *********************** */
+/* ******* INTRODUCTION ******** */
 @media all and (min-width: 1100px) {
   .content-wrap {
-    /* padding: 112px 113px 190px; */
     background-position: center right;
   }
 }
