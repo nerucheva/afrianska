@@ -29,44 +29,51 @@
         <main>
           <div class="contact-us">
             <div class="contact-us__wrapper container">
-              <h2 class="contacts-title">Contact us</h2>
-              <p class="text" class="text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque,
-                neque!
+              <h2 class="contact-us__title">Contact us</h2>
+              <p class="contact-us__text" class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
           </div>
 
           <div class="content container">
             <div class="content__contacts">
-              <img
-                src="https://images.pexels.com/photos/1070945/pexels-photo-1070945.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                alt="photo"
-                width="350"
-              />
+              <img src="./assets/contacts-small-image.svg" alt="photo" />
 
-              <h4 class="subtitle">Address</h4>
-              <p class="text" class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
-              </p>
+              <div class="content__contacts-info">
+                <h4 class="subtitle">Address</h4>
+                <p class="text" class="text">
+                  Id convallis placerat sit sed duis id amet volutpat quam a,
+                  pharetra.
+                </p>
 
-              <h4 class="subtitle">Phone</h4>
-              <ul class="content__contacts-phone">
-                <li>012-345-678-900</li>
-                <li>009-876-543-210</li>
-              </ul>
+                <h4 class="subtitle">Phone</h4>
+                <ul class="content__contacts-phone">
+                  <li>
+                    <a href="tel: +7 (812) 7313 4321" class="text"
+                      >+7-812-7313-4321</a
+                    >
+                  </li>
+                  <li>
+                    <a href="tel: +7 (817) 0000 1234" class="text"
+                      >+7-817-0000-1234</a
+                    >
+                  </li>
+                </ul>
 
-              <h4 class="subtitle">Online service</h4>
-              <ul class="content__contacts-oline">
-                <li>
-                  <a href="example.com">example.com</a>
-                </li>
-                <li>
-                  <a href="mailto:user@examle.com" class="average-text-link"
-                    >user@examle.com
-                  </a>
-                </li>
-              </ul>
+                <h4 class="subtitle">Online service</h4>
+                <ul class="content__contacts-oline">
+                  <li>
+                    <a href="example.com" class="text">example.com</a>
+                  </li>
+                  <li>
+                    <a href="mailto:user@examle.com" class="text"
+                      >user@examle.com
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
 
             <div class="content__form">
@@ -79,7 +86,7 @@
                     type="text"
                     name="username"
                     class="form-element"
-                    placeholder="John Doe"
+                    placeholder="Your Name"
                   />
                 </label>
                 <br />
@@ -90,7 +97,7 @@
                     type="text"
                     name="e-mail"
                     class="form-element"
-                    placeholder="user@example.com"
+                    placeholder="Your Email"
                   />
                 </label>
                 <br />
@@ -103,7 +110,7 @@
                     cols="30"
                     rows="5"
                     class="form-element"
-                    placeholder="Type the message"
+                    placeholder="Your Message"
                   ></textarea>
                 </label>
 
@@ -149,8 +156,14 @@
                 <li class="footer__contacts-text text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </li>
-                <li class="footer__contacts-text text">+7-812-7313-4321</li>
-                <li class="footer__contacts-text text">hello.site@gmail.com</li>
+                <li class="footer__contacts-text text">
+                  <a href="tel: +7 (812) 7313 4321">+7-812-7313-4321</a>
+                </li>
+                <li class="footer__contacts-text text">
+                  <a href="mailto:hello.site@gmail.com" class=""
+                    >hello.site@gmail.com
+                  </a>
+                </li>
               </ol>
             </div>
           </address>
