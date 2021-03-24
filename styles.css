@@ -172,6 +172,10 @@
     text-align: left;
   }
 
+  .footer__content-text {
+    margin: 32px 0 0;
+  }
+
   .footer__button {
     padding: 3px 30px;
   }
