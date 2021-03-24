@@ -156,6 +156,25 @@
   left: 16px;
 }
 
+/* *********************** >425px *********************** */
+@media all and (min-width: 425px) {
+  /* ******* PROJECT ******** */
+  .project__image-title-top,
+  .project__image-title-bottom {
+    font-size: 22px;
+  }
+
+  .project__image-title-top {
+    top: 32px;
+    right: 32px;
+  }
+
+  .project__image-title-bottom {
+    top: 30px;
+    left: 30px;
+  }
+}
+
 /* *********************** >650px *********************** */
 @media all and (min-width: 650px) {
   /* ******* INTRODUCTION ******** */
@@ -235,6 +254,11 @@
   .project__image-item:last-child {
     margin-bottom: 0;
   }
+}
+
+/* *********************** >768px *********************** */
+@media all and (min-width: 768px) {
+  /* ******* PROJECT ******** */
 
   .project__image-title-top {
     top: 64px;

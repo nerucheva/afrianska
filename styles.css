@@ -238,6 +238,7 @@
 
   .footer__copyright {
     max-width: 1140px;
-    padding-left: 0;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
