@@ -23,7 +23,7 @@
 
 .contact-us__text {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   text-align: center;
@@ -53,6 +53,7 @@
 
 .content__contacts-info {
   padding-top: 64px;
+  font-style: normal;
 }
 
 .content__contacts .subtitle {
@@ -116,7 +117,7 @@
 
 .content__form span {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 30px;
   letter-spacing: 0.04em;
@@ -175,6 +176,14 @@
   color: #ffffff;
   text-transform: uppercase;
   margin-top: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.submit-button:hover,
+.submit-button:focus {
+  background: #488ac4;
+  outline: none;
 }
 
 .map {

@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="./contacts.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Contacts</title>
   </head>
   <body>
     <div class="wrapper">
       <div class="top">
-        <header class="header container">
-          <ul class="header__menu-list">
+        <header class="header">
+          <ul class="header__menu-list container">
             <li class="header__menu-list-item">
               <a href="./index.html"
                 ><img src="./assets/menu-logo.svg" alt="logo"
@@ -45,7 +50,7 @@
                 class="content__contacts-image"
               />
 
-              <div class="content__contacts-info">
+              <address class="content__contacts-info">
                 <h4 class="subtitle">Address</h4>
                 <p class="text">
                   Id convallis placerat sit sed duis id amet volutpat quam a,
@@ -84,7 +89,7 @@
                       alt="website"
                       class="content__contacts-icon"
                     />
-                    <a href="example.com" class="text">example.com</a>
+                    <a href="https://example.com/" class="text">example.com</a>
                   </li>
                   <li class="content__contacts-li">
                     <img
@@ -97,10 +102,10 @@
                     </a>
                   </li>
                 </ul>
-              </div>
+              </address>
             </div>
 
-            <div class="content__form">
+            <div id="form" class="content__form">
               <h4 class="subtitle">Send us a&nbsp;message</h4>
               <form action="#">
                 <label>
@@ -116,7 +121,7 @@
                 <label>
                   <span>E-mail</span>
                   <input
-                    type="text"
+                    type="email"
                     name="e-mail"
                     class="form-element"
                     placeholder="Your Email"
@@ -161,7 +166,7 @@
               enim ad minim veniam.
             </p>
           </div>
-          <a href="#" class="footer__button text">Let’s Talk</a>
+          <a href="#form" class="footer__button text">Let’s Talk</a>
         </div>
 
         <hr class="footer__hr" />
@@ -186,7 +191,9 @@
           </address>
 
           <div class="footer__copyright">
-            <p class="footer__text text">2021 &copy; All rights reserved</p>
+            <p class="footer__text text">
+              2021 &copy; Afrianska. All rights reserved
+            </p>
           </div>
         </div>
       </footer>
