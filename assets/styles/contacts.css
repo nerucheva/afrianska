@@ -1,11 +1,10 @@
 /* *********************** >320px *********************** */
 
 .contact-us {
-  margin-top: 25px;
   height: 250px;
   padding: 48px 16px 61px;
   box-sizing: border-box;
-  background-image: url(./assets/contacts-top-image.svg);
+  background-image: url("../contacts-top-image.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -27,8 +26,10 @@
   font-size: 16px;
   line-height: 30px;
   text-align: center;
-  color: rgba(255, 255, 255, 0.6);
-  max-width: 340px;
+  /* color: rgba(255, 255, 255, 0.6); */
+  color: #ffffff;
+  opacity: 0.8;
+  max-width: 345px;
   margin: 0 auto;
 }
 
@@ -42,7 +43,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 46px 37px 0;
+  padding: 64px 37px;
   max-width: 300px;
   box-sizing: content-box;
 }
@@ -52,14 +53,14 @@
 }
 
 .content__contacts-info {
-  padding-top: 64px;
+  padding-top: 35px;
   font-style: normal;
 }
 
 .content__contacts .subtitle {
   text-align: left;
   text-transform: uppercase;
-  margin: 32px 0 24px;
+  margin: 40px 0 24px;
 }
 
 .content__contacts .subtitle:first-child {
@@ -100,7 +101,7 @@
   background: #ffffff;
   box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
-  margin: 32px 17px;
+  margin: 0 17px;
   padding: 36px;
 }
 
@@ -187,15 +188,14 @@
 }
 
 .map {
-  margin-bottom: 32px;
+  margin: 64px auto;
   height: 350px;
 }
 
 /* *********************** >650px *********************** */
 @media all and (min-width: 650px) {
   .contact-us {
-    margin-top: 41px;
-    padding: 50px 16px 25px;
+    padding: 30px 16px;
   }
 
   .contact-us__title {
@@ -211,7 +211,7 @@
   }
 
   .content__contacts {
-    padding: 64px 37px 0;
+    padding: 64px 37px;
   }
 
   .content__contacts .subtitle {
@@ -220,7 +220,7 @@
 
   .content__form {
     max-width: 520px;
-    margin: 64px 17px;
+    margin: 0 17px;
     padding: 54px;
   }
 
@@ -267,20 +267,15 @@
 
 /* *********************** >1100px *********************** */
 @media all and (min-width: 1100px) {
-  .contact-us {
-    margin-top: 47px;
-  }
-
   .content {
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 940px;
-    padding: 57px 0 96px;
+    padding: 84px 0;
   }
 
   .content__contacts {
     padding: 0;
-    margin-right: 100px;
   }
 
   .content__form {
@@ -289,8 +284,8 @@
 
   .map {
     height: 480px;
-    max-width: 940px;
-    margin-bottom: 112px;
+    max-width: 1140px;
+    margin: 0 auto 84px;
   }
 }
 

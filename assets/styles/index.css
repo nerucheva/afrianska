@@ -7,7 +7,7 @@
     rgba(152, 195, 232, 0) 31.12%
   );
   max-height: 312px;
-  padding: 28px 16px 40px;
+  padding: 10px 16px 40px;
 }
 
 .introduction__content {
@@ -53,7 +53,7 @@
 
 /* ******* ADVANTAGES ******** */
 .advantages {
-  padding-top: 48px;
+  padding-top: 64px;
 }
 
 .advantages .title {
@@ -67,7 +67,7 @@
   flex-direction: column;
   align-items: center;
   list-style-type: none;
-  padding: 32px 16px 0;
+  padding: 0 16px;
 }
 
 .advantages__item {
@@ -78,12 +78,12 @@
   background: #ffffff;
   box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
-  padding: 40px 30px 21px;
+  padding: 50px 30px 21px;
   margin-top: 32px;
 }
 
 .advantages__item:nth-child(2) {
-  padding-top: 9px;
+  padding-top: 19px;
 }
 
 .advantages__item img {
@@ -115,7 +115,7 @@
 
 .advantages__more::after {
   content: "";
-  background-image: url(./assets/ic_arrow_forward.svg);
+  background-image: url("../ic_arrow_forward.svg");
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: center;
@@ -126,11 +126,11 @@
 }
 
 .project {
-  padding: 64px 16px 0;
+  padding: 64px 16px;
 }
 
 .project__text {
-  padding: 32px 0 82px 0;
+  padding: 32px 0;
   margin: 0 auto;
   text-align: center;
   color: #222222;
@@ -148,7 +148,7 @@
 }
 
 .project__image-item:last-child {
-  margin-bottom: 64px;
+  margin-bottom: 0;
 }
 
 .project__image-container .project__image-item {
@@ -179,7 +179,7 @@
 @media all and (min-width: 425px) {
   /* ******* ADVANTAGES ******** */
   .advantages__item {
-    max-height: 444px;
+    max-height: 454px;
   }
 
   /* ******* PROJECT ******** */
@@ -209,9 +209,9 @@
   }
 
   .content-wrap {
-    padding: 112px 0 190px;
+    padding: 70px 0 190px;
     box-sizing: border-box;
-    background-image: url(./assets/top-illustration.svg);
+    background-image: url("../top-illustration.svg");
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: 100% 75%;
@@ -242,12 +242,12 @@
   /* ******* ADVANTAGES ******** */
 
   .advantages {
-    padding-top: 64px;
+    padding-top: 120px;
   }
 
   .advantages .title {
     padding: 0 32px;
-    max-width: 704px;
+    max-width: 580px;
   }
 
   .advantages__list {
@@ -257,7 +257,7 @@
   /* ******* PROJECT ******** */
 
   .project {
-    padding: 127px 32px 109px;
+    padding: 120px 32px 84px;
   }
 
   .project__image-container {
@@ -308,13 +308,13 @@
   }
 
   /* ******* ADVANTAGES ******** */
-  .advantages,
+  /* .advantages,
   .project {
     padding-top: 64px;
-  }
+  } */
 
-  .advantages .title {
-    max-width: none;
+  .advantages__item {
+    margin-top: 0;
   }
 
   .advantages__list {
