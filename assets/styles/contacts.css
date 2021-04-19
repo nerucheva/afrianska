@@ -2,7 +2,7 @@
 
 .contact-us {
   height: 250px;
-  padding: 48px 16px 61px;
+  padding: 37px 16px 61px;
   box-sizing: border-box;
   background-image: url("../contacts-top-image.svg");
   background-repeat: no-repeat;
@@ -189,6 +189,13 @@
 .map {
   margin: 64px auto;
   height: 350px;
+}
+
+/* *********************** >375px *********************** */
+@media all and (min-width: 375px) {
+  .contact-us {
+    padding: 48px 16px 61px;
+  }
 }
 
 /* *********************** >650px *********************** */
