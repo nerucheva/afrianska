@@ -16,7 +16,7 @@
   line-height: 28px;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--white);
   margin-bottom: 32px;
 }
 
@@ -26,8 +26,7 @@
   font-size: 16px;
   line-height: 30px;
   text-align: center;
-  /* color: rgba(255, 255, 255, 0.6); */
-  color: #ffffff;
+  color: var(--white);
   opacity: 0.8;
   max-width: 345px;
   margin: 0 auto;
@@ -98,7 +97,7 @@
   width: 93vw;
   max-width: 342px;
   box-sizing: border-box;
-  background: #ffffff;
+  background: var(--white);
   box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
   margin: 0 17px;
@@ -122,19 +121,19 @@
   font-size: 14px;
   line-height: 30px;
   letter-spacing: 0.04em;
-  color: #1f3f68;
+  color: var(--biskay-blue);
   opacity: 0.8;
 }
 
 .form-element {
-  border: 1px solid #abc5dc;
+  border: 1px solid var(--pigeon-post);
   border-radius: 10px;
 }
 
 .content__form input:focus,
 .content__form textarea:focus {
   outline: none;
-  border: #356ead solid 1px;
+  border: var(--astral) solid 1px;
 }
 
 .form-element::placeholder {
@@ -148,7 +147,7 @@
   font-size: 14px;
   line-height: 30px;
   letter-spacing: 0.04em;
-  color: #1f3f68;
+  color: var(--biskay-blue);
   padding-left: 15px;
 }
 
@@ -162,7 +161,7 @@
 }
 
 .submit-button {
-  background: #5a98d0;
+  background: var(--danube);
   box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
   border: none;
@@ -174,7 +173,7 @@
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--white);
   text-transform: uppercase;
   margin-top: 25px;
   cursor: pointer;
@@ -183,7 +182,7 @@
 
 .submit-button:hover,
 .submit-button:focus {
-  background: #488ac4;
+  background: var(--boston-blue);
   outline: none;
 }
 

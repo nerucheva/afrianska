@@ -3,7 +3,7 @@
 .introduction {
   background: linear-gradient(
     0deg,
-    #ebf3fb 8.84%,
+    var(--polar) 8.84%,
     rgba(152, 195, 232, 0) 31.12%
   );
   max-height: 312px;
@@ -20,8 +20,8 @@
   font-weight: 300;
   line-height: 37px;
   letter-spacing: 0.04em;
-  color: #1f3f68;
   text-align: center;
+  color: var(--biskay-blue);
 }
 
 .introduction__text {
@@ -33,31 +33,30 @@
 
 .introduction__button {
   display: inline-block;
-  color: #ffffff;
-  background: #5a98d0;
+  color: var(--white);
+  background: var(--danube);
   box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
   border-radius: 12px;
-  padding: 4px 12px;
-  text-decoration: none;
-  opacity: 1;
   margin-top: 32px;
+  padding: 4px 12px;
   font-size: 12px;
+  text-decoration: none;
   align-self: center;
+  opacity: 1;
   transition: background 0.5s;
 }
 
 .introduction__button:hover,
 .introduction__button:focus {
-  background: #488ac4;
+  background: var(--boston-blue);
 }
 
 /* ******* ADVANTAGES ******** */
 .advantages {
-  padding-top: 64px;
+  padding: 64px 16px 0;
 }
 
 .advantages .title {
-  padding: 0 16px;
   max-width: 320px;
   margin: 0 auto;
 }
@@ -67,7 +66,6 @@
   flex-direction: column;
   align-items: center;
   list-style-type: none;
-  padding: 0 16px;
 }
 
 .advantages__item {
@@ -75,11 +73,11 @@
   flex-direction: column;
   max-width: 336px;
   box-sizing: border-box;
-  background: #ffffff;
+  background: var(--white);
   box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
-  padding: 50px 30px 21px;
   margin-top: 32px;
+  padding: 50px 30px 21px;
 }
 
 .advantages__item:nth-child(2) {
@@ -109,7 +107,7 @@
   font-size: 14px;
   line-height: 30px;
   letter-spacing: 0.05em;
-  color: #5a98d0;
+  color: var(--danube);
   text-decoration: none;
 }
 
@@ -125,6 +123,7 @@
   margin-left: 7px;
 }
 
+/* ******* PROJECT ******** */
 .project {
   padding: 64px 16px;
 }
@@ -133,7 +132,7 @@
   padding: 32px 0;
   margin: 0 auto;
   text-align: center;
-  color: #222222;
+  color: var(--dark-gray);
   max-width: 495px;
   opacity: 1;
 }
@@ -161,7 +160,7 @@
   font-weight: 400;
   line-height: 19px;
   font-size: 16px;
-  color: #ffffff;
+  color: var(--white);
   position: absolute;
 }
 
@@ -308,10 +307,6 @@
   }
 
   /* ******* ADVANTAGES ******** */
-  /* .advantages,
-  .project {
-    padding-top: 64px;
-  } */
 
   .advantages__item {
     margin-top: 0;
