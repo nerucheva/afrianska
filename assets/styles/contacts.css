@@ -2,7 +2,7 @@
 
 .contact-us {
   height: 250px;
-  padding: 48px 16px 61px;
+  padding: 37px 16px 61px;
   box-sizing: border-box;
   background-image: url("../contacts-top-image.svg");
   background-repeat: no-repeat;
@@ -137,11 +137,16 @@
 }
 
 .form-element::placeholder {
-  opacity: 0.2;
+  opacity: 0.6;
 }
 
-.content__form input,
+.content__form input[type="text"],
+.content__form input[type="email"],
 .content__form textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -189,6 +194,13 @@
 .map {
   margin: 64px auto;
   height: 350px;
+}
+
+/* *********************** >375px *********************** */
+@media all and (min-width: 375px) {
+  .contact-us {
+    padding: 48px 16px 61px;
+  }
 }
 
 /* *********************** >650px *********************** */
