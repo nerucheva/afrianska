@@ -137,11 +137,16 @@
 }
 
 .form-element::placeholder {
-  opacity: 0.2;
+  opacity: 0.6;
 }
 
-.content__form input,
+.content__form input[type="text"],
+.content__form input[type="email"],
 .content__form textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
