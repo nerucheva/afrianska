@@ -180,7 +180,7 @@
   letter-spacing: 0.04em;
   color: var(--white);
   text-transform: uppercase;
-  margin-top: 25px;
+  margin-top: 14px;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -197,6 +197,7 @@
 }
 
 /* *********************** >375px *********************** */
+
 @media all and (min-width: 375px) {
   .contact-us {
     padding: 48px 16px 61px;
@@ -204,6 +205,7 @@
 }
 
 /* *********************** >650px *********************** */
+
 @media all and (min-width: 650px) {
   .contact-us {
     padding: 30px 16px;
@@ -266,7 +268,7 @@
   }
 
   .submit-button {
-    margin-top: 39px;
+    margin-top: 19px;
     height: 70px;
   }
 
@@ -277,6 +279,7 @@
 }
 
 /* *********************** >1100px *********************** */
+
 @media all and (min-width: 1100px) {
   .content {
     flex-direction: row;

@@ -1,5 +1,6 @@
 /* *********************** >320px *********************** */
 /* ******* INTRODUCTION ******** */
+
 .introduction {
   background: linear-gradient(
     0deg,
@@ -52,6 +53,7 @@
 }
 
 /* ******* ADVANTAGES ******** */
+
 .advantages {
   padding: 64px 16px 0;
 }
@@ -124,6 +126,7 @@
 }
 
 /* ******* PROJECT ******** */
+
 .project {
   padding: 64px 16px;
 }
@@ -175,6 +178,7 @@
 }
 
 /* *********************** >425px *********************** */
+
 @media all and (min-width: 425px) {
   /* ******* ADVANTAGES ******** */
   .advantages__item {
@@ -199,9 +203,9 @@
 }
 
 /* *********************** >650px *********************** */
+
 @media all and (min-width: 650px) {
   /* ******* INTRODUCTION ******** */
-
   .introduction {
     max-height: 692px;
     padding: 0 32px;
@@ -270,10 +274,7 @@
     margin-right: 32px;
   }
 
-  .project__image-item {
-    margin-bottom: 0;
-  }
-
+  .project__image-item,
   .project__image-item:last-child {
     margin-bottom: 0;
   }
