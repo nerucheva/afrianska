@@ -73,6 +73,7 @@
 }
 
 /* ******* TITLE ******** */
+
 .subtitle {
   font-weight: 400;
   font-size: 20px;
@@ -81,6 +82,7 @@
 }
 
 /* ******* HEADER ******** */
+
 .header__menu-list {
   display: flex;
   justify-content: space-between;
@@ -96,6 +98,7 @@
 }
 
 /* ******* FOOTER ******** */
+
 .footer {
   box-sizing: border-box;
   background: var(--azure);
